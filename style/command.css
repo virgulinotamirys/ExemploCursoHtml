@@ -1,0 +1,33 @@
+/* to top */
+#toTop { 
+    background: #3cb567;
+    border: medium none;
+    bottom: 10px;
+    box-sizing: border-box;
+    color: #fff;
+    display: none;
+    height: 51px;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    right: 10px;
+    text-decoration: none;
+    text-indent: 100%;
+    transition: all 0s ease-in-out 0s;
+    width: 51px;
+    z-index: 999;
+}
+#toTop::after {
+    color: #fff;
+    content: "\f106";
+    display: block;
+    font-family: "FontAwesome";
+    font-size: 27px;
+    left: -29px;
+    padding-left: 5px;
+    position: absolute;
+    top: 7px;
+} 
+#toTop:active, #toTop:focus {
+    outline: medium none;
+}

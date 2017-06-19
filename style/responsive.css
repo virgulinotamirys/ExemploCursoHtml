@@ -1,0 +1,141 @@
+
+
+
+/* largura 1280px */
+
+
+@media only screen and (max-width: 479px) {
+    div[class^="col-xs"], article.col-xs-6 {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    div.container {
+        width: 80%;
+    }
+}
+@media (min-width: 1140px) {
+    div.container {
+        width: 80%;
+    }
+}
+@media (min-width: 1260px) {
+    div.container {
+        width: 1260px;
+    }
+}
+
+ 
+/*
+   CUSTOM  
+*/
+
+
+/* Smaller than standard 1120px (devices and browsers) */
+@media only screen and (min-width: 1560px) and (max-width: 1800Px) { 
+   
+
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1560Px) { 
+  
+}
+
+@media only screen and (max-width: 1560Px) { 
+  
+}
+
+@media only screen and (max-width: 1260px) {
+  
+
+}
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  
+    
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+   
+
+}
+
+
+/* Tablet Portrait size to standard 1120px (devices and browsers) */
+@media only screen and (max-width: 960px) {
+  
+
+
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) { 
+    
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  
+
+}
+
+
+@media only screen and (max-width:350px) {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+    'PADRÕES' EM RESPONSIVEL 
+*/
+
+/* Smaller than standard 1120px (devices and browsers) */
+@media only screen and (max-width: 1120px) {
+}
+/* Tablet Portrait size to standard 1120px (devices and browsers) */
+@media only screen and (min-width: 960px) and (max-width: 1120px) {
+}
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+}
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+}
+
+ 

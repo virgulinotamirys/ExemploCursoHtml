@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="iso-8859-1">
+    <meta name="author" content="ArtemSite - Agência Digital, Criação de Sites e desenvolvimento de aplicativos para dispositivos movéis em Palmas Tocantins">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=5; IE=8; IE=9; IE=10;" >
+    <title>Curso Html</title>
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <link rel="stylesheet" type="text/css" href="style/base.css"/>
+    <link rel="stylesheet" type="text/css" href="style/animate.css"/>
+
+
+   	<link rel="icon" href="images/favico.ico" type="text/css" sizes="16x16">
+   	<link rel="icon" href="images/favico.png" type="text/css" sizes="16x16">
+
+    <link rel="stylesheet" type="text/css" href="style/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="style/command.css"/>
+    <link rel="stylesheet" type="text/css" href="style/responsive.css"/>
+
+    <link rel="stylesheet" type="text/css" href="style/font-awesome.css"/>
+    <link rel="stylesheet" type="text/css" href="style/demo-slideshow.css"/>
+    <link rel="stylesheet" type="text/css" href="style/fontes.css"/>
+
+    <link href="script/owl.carousel/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="script/owl.carousel/owl-carousel/owl.theme.css" rel="stylesheet">
+
+	<!-- Bootstrap and CSS-->
+    <link rel="stylesheet" type="text/css" href="script/bootstrap/css/bootstrap.min.css"/>
+
+
+</head>
+<body>
+    <div class="container_geral">
+        <div class="menu-nav" id="menu">
+    		<div class="nav-mobile"></div> <!-- menu - nav -->
+		</div> <!-- menu - nav -->
+
+		<div class="header bord-bot"></div> <!-- header -->
+
+
+		<div class="body">
+
+            
+            
+		</div> <!-- body -->
+
+
+		<div class="footer"></div> <!-- footer -->
+	</div> <!-- container -->
+
+	<script type="text/javascript" src="script/jquery.min.js"></script>
+    <script type="text/javascript" src="script/jquery.cycle2.js"></script>
+    <script type="text/javascript" src="script/jquery.scrollTo-1.4.3.1-min.js"></script>
+    <script type="text/javascript" src="script/scriptCUSTON.js"></script>
+	<script type="text/javascript" src="script/jquery.ui.totop.min.js"></script>
+
+    <!-- Bootstrap and JS-->
+	<script type="text/javascript" src="script/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Carousel owl-->
+    <script src="script/owl.carousel/owl-carousel/owl.carousel.min.js"></script>
+
+    <script src="https://unpkg.com/vue"></script>
+
+    <!-- fancybox js -->
+    <link rel="stylesheet" type="text/css" href="script/bootstrap-modal/css/bootstrap-modal.css"/>
+    <link rel="stylesheet" type="text/css" href="script/bootstrap-modal/css/bootstrap-modal-bs3patch.css"/>
+
+
+	<!-- Add fancyBox - media helper (this is optional) -->
+	<script type="text/javascript" src="script/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.0"></script>
+
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$().UItoTop();
+
+			$( '.cycle-slideshow' ).cycle(); /* carregar slides cycle|cycle2 */
+
+			$('div.footer').load('footer.html');   /* carregar pagina footer */
+            $('div.header').load('header.html');   /* carregar pagina header */
+			$('div.nav-mobile').load('nav-mobile.html');   /* carregar pagina nav-mobile */
+		});
+	</script>
+
+</body>
+</html>
